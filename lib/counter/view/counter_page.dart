@@ -29,7 +29,7 @@ class CounterView extends StatelessWidget {
         child: Center(
           child: OutlinedButton(
             onPressed: _launchURL,
-            child: Text('Chuck Norris jokes app'),
+            child: Text('Navigate'),
           ),
         ),
       ),
@@ -38,7 +38,9 @@ class CounterView extends StatelessWidget {
 }
 
 _launchURL() async {
-  final url = Uri.parse('https://flutter.dev');
+  final url = Uri.parse(
+    'https://demetre-panjakidze.github.io',
+  );
   if (!await launchUrl(url)) {
     throw Exception('Could not launch $url');
   }
