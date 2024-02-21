@@ -14,7 +14,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: ^0.18.0
-  url_launcher: ^6.2.4
+  url_launcher: ^6.2.5
 
 dev_dependencies:
   bloc_test: ^9.1.4
